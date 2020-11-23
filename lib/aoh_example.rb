@@ -13,8 +13,6 @@ def assembled_aoh
   # Array. Ruby constants are denoted by ALL_CAPS
 end
 
-assembled_aoh
-
 def literal_aoh
   print [DON_G.sort, JOELLE_VD.sort, PAT_M.sort, KATE_G.sort, BRUCE_G.sort]
   # Using Array literal syntax only, build a nested array that uses the data in
