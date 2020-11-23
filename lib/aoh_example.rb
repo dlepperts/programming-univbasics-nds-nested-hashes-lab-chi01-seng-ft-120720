@@ -16,10 +16,12 @@ end
 assembled_aoh
 
 def literal_aoh
-  [[DON_G.sort], [JOELLE_VD.sort], [PAT_M.sort], [KATE_G.sort], [BRUCE_G.sort]]
+  print [DON_G.sort, JOELLE_VD.sort, PAT_M.sort, KATE_G.sort, BRUCE_G.sort]
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
+
+literal_aoh
 
 def aoh_lookup(aoh, row, key)
 end
